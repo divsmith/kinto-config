@@ -178,6 +178,15 @@ define_conditional_modmap(re.compile(termStr, re.IGNORECASE), {
     # Key.RIGHT_CTRL: Key.LEFT_CTRL,  # Mac - Multi-language (Remove)
 })
 
+# Keybindings for terminal
+define_keymap(re.compile("gnome-terminal", re.IGNORECASE),{
+    K("LC-M-C-Right"): K("LC-M-Super-Right"),
+    K("LC-M-C-Left"): K("LC-M-Super-Left"),
+    K("LC-M-Right"): K("M-Super-Right"),
+    K("LC-M-Left"): K("M-Super-Left"),
+    K("LC-M-Enter"): K("M-Super-Enter")
+}, "Terminal")
+
 # Keybindings for IntelliJ
 define_keymap(re.compile("^jetbrains-(?!.*toolbox).*$", re.IGNORECASE),{
     # General

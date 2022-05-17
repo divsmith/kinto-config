@@ -449,6 +449,7 @@ define_keymap(re.compile("Firefox", re.IGNORECASE),{
 })
 define_keymap(re.compile(chromeStr, re.IGNORECASE),{
     K("C-comma"): [K("M-e"), K("s"),K("Enter")],
+    K("RC-Q"): K("M-F4"),
 }, "Browsers")
 # Opera C-F12
 

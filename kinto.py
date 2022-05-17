@@ -206,7 +206,7 @@ define_keymap(re.compile("^jetbrains-(?!.*toolbox).*$", re.IGNORECASE),{
     K("Super-Space"): K("LC-Space"),            # Basic code completion
     K("Super-Shift-Space"): K("LC-Shift-Space"),# Smart code completion
     K("Super-j"): K("C-q"),                     # Quick documentation lookup
-    K("C-n"): K("M-Insert"),                    # Generate code...
+    #K("C-n"): K("M-Insert"),                    # Generate code...
     K("Super-o"): K("C-o"),                     # Override methods
     K("Super-i"): K("C-i"),                     # Implement methods
     K("M-Up"): K("C-w"),                        # Extend selection

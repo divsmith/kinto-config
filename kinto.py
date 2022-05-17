@@ -510,7 +510,7 @@ define_keymap(lambda wm_class: wm_class.casefold() not in terminals,{
 # - but remote clients and VM software ought to be set here
 # These are the typical remaps for ALL GUI based apps
 define_keymap(lambda wm_class: wm_class.casefold() not in remotes,{
-    K("RC-Space"): K("Alt-F1"),                   # Default SL - Launch Application Menu (gnome/kde)
+    K("RC-Space"): K("Alt-F2"),                   # Default SL - Launch Application Menu (gnome/kde)
     K("RC-F3"):K("Super-d"),                      # Default SL - Show Desktop (gnome/kde,eos)
     K("RC-Super-f"):K("M-F10"),                   # Default SL - Maximize app (gnome/kde)
     # K("RC-Super-f"): K("Super-Page_Up"),          # SL - Toggle maximized window state (kde_neon)

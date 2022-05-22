@@ -184,7 +184,8 @@ define_keymap(re.compile("gnome-terminal", re.IGNORECASE),{
     K("LC-M-C-Left"): K("LC-M-Super-Left"),
     K("LC-M-Right"): K("M-Super-Right"),
     K("LC-M-Left"): K("M-Super-Left"),
-    K("LC-M-Enter"): K("M-Super-Enter")
+    K("LC-M-Enter"): K("M-Super-Enter"),
+    K("C-k"): K("LC-l")
 }, "Terminal")
 
 # Keybindings for IntelliJ
